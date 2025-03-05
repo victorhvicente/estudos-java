@@ -5,7 +5,7 @@ public class MinhaClasse {
     }
 
     public double somar(int n1, int n2) {
-        return n1 + n2; // Ou (double) (n1 + n2) se precisar ser double
+        return n1 + n2;
     }
 
     public void imprimir(String texto) {
@@ -23,8 +23,8 @@ public class MinhaClasse {
         return 0.0;
     }
 
-    public void gravarCliente(Cliente cliente) {
-        System.out.println("Cliente " + cliente.getNome() + " gravado com sucesso!");
-    }
+    // public void gravarCliente(Cliente cliente) {
+    //     System.out.println("Cliente " + cliente.getNome() + " gravado com sucesso!");
+    // }
 }
 
