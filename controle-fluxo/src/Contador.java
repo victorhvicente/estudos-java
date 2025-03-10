@@ -18,6 +18,7 @@ public class Contador {
             System.out.println(e.getMessage());
         }
 
+        scan.close();
     }
 
     public static void contar(int numero1, int numero2) throws ParametrosInvalidosException{
