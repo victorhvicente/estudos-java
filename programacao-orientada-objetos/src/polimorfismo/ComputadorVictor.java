@@ -6,6 +6,7 @@ import polimorfismo.apps.ServicoMensagemInstantanea;
 import polimorfismo.apps.Telegram;
 
 public class ComputadorVictor {
+    
     public static void main(String[] args) {
         ServicoMensagemInstantanea smi = null;
 
